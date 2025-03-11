@@ -1,0 +1,51 @@
+/* # Gravity Forms
+---------------------------------------------------------------------------------------------------- */
+.gform_wrapper .gform_body ul{
+    margin: 0;
+    padding: 0;
+    list-style: none !important;
+}
+.gform_wrapper .gform_body ul li{
+    list-style: none !important;
+}
+.gform_wrapper .gform_body .gform_fields .gfield{
+    margin: 0 0 2rem;
+}
+.gform_wrapper .gform_body .gform_fields .gfield.hidden_label .gfield_label{
+    display: none;
+}
+.gform_wrapper .gform_footer .gform_ajax_spinner{
+    width: 3.5rem;
+    height: auto;
+    padding-left: 0;
+    margin-left: 1rem;
+    vertical-align: middle;
+}
+.gform_wrapper.gform_validation_error .validation_error{
+    color: #cc0000;
+    margin-bottom: 1rem;
+}
+.gform_wrapper.gform_validation_error .validation_message{
+    color: #cc0000;
+    font-size: 1.3rem;
+    margin-top: 0.3rem;
+}
+
+/* # Ninja Forms
+---------------------------------------------------------------------------------------------------- */
+.nf-before-form-content{
+    margin-bottom: 2rem !important;
+}
+.nf-field-container{
+    margin-bottom: 2rem !important;
+}
+.field-wrap textarea{
+    display: block;
+}
+.field-wrap.submit-wrap{
+    padding-top: 2rem;
+    text-align: center;
+}
+.nf-form-content .ninja-forms-field[type="button"]{
+    padding: 1rem 5rem;
+}

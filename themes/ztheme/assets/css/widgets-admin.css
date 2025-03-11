@@ -1,0 +1,449 @@
+/* General Widgets Admin Styles */
+#available-widgets [class*=asitheme_widget] .widget-title:before{
+    content: "\f155";
+    color: #eb5a63;
+}
+.asi-widget-p{
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 1em 0;
+}
+.asi-widget-p label.block{
+    display: block;
+}
+.asi-widget-p span.desc{
+    font-size: 12px;
+    font-style: italic;
+    display: block;
+}
+.asitheme-widget{
+    margin: 0 auto;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.asitheme-widget .asitheme-widget-top .asitheme-widget-action .toggle-indicator:before{
+    font: 400 20px/1 dashicons;
+    speak: none;
+    display: block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none !important;
+    content: "\f140";
+}
+.asitheme-widget.open .asitheme-widget-top .asitheme-widget-action .toggle-indicator:before{
+    content: "\f142";
+}
+.asitheme-widget-top{
+    cursor: move;
+    font-size: 13px;
+    font-weight: 600;
+    background: #f7f7f7;
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+}
+.asitheme-widget-top .asitheme-widget-action{
+    border: 0;
+    margin: 0;
+    padding: 8px;
+    background: none;
+    cursor: pointer;
+    outline: none;
+}
+.asitheme-widget-title h3,
+.asitheme-widget-title h4{
+    margin: 0;
+    padding: 10px 15px;
+    font-size: 1em;
+    line-height: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.asitheme-widget-title .button-link-delete{
+    /*margin-left: 40px;*/
+    font-size: 11px;
+    float: right;
+}
+.asitheme-widgets-holder-wrap .asitheme-widget-inside{
+    border-top: none;
+    padding: 1px 15px 15px 15px;
+    line-height: 16px;
+}
+.in-widget-title,
+#widgets-right a.asitheme-widget-control-edit,
+#available-widgets .asitheme-widget-description{
+    color: #666;
+}
+.deleting .asitheme-widget-title,
+.deleting .asitheme-widget-top .asitheme-widget-action .toggle-indicator:before{
+    color: #a0a5aa;
+}
+/* Widget Dragging Helpers */
+.asitheme-widget.ui-draggable-dragging{
+    min-width: 100%;
+}
+.asitheme-widget.ui-sortable-helper{
+    opacity: 0.8;
+}
+.asitheme-widget-placeholder{
+    border: 1px dashed #b4b9be;
+    margin: 0 auto;
+    height: 45px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#widgets-right .asitheme-widget-placeholder{
+    margin-top: 0;
+}
+#widgets-right .closed .asitheme-widget-placeholder{
+    height: 0;
+    border: 0;
+    margin-top: -10px;
+}
+/* Widget Sidebars */
+.asitheme-widgets-holder-wrap .description{
+    padding: 0 0 15px;
+    margin: 0;
+    font-style: normal;
+    color: #72777c;
+}
+.asitheme-widget-holder .description,
+.inactive-sidebar .description{
+    color: #555d66;
+}
+#widgets-right .asitheme-widgets-holder-wrap .description{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+/* Widgets 2-col Layout */
+div.asitheme-widget-liquid-left{
+    margin: 0;
+    width: 38%;
+    float: left;
+}
+div.asitheme-widget-liquid-right{
+    float: right;
+    width: 58%;
+}
+/* Widgets Left - Available Widgets */
+#widgets-left .asitheme-widgets-holder-wrap,
+div#widgets-left .asitheme-widget-holder{
+    background: transparent;
+    border: none;
+}
+#widgets-left .asitheme-widgets-holder-wrap{
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+#available-widgets .asitheme-widget-action{
+    display: none;
+}
+#available-widgets .asitheme-widget{
+    margin: 0;
+}
+#available-widgets .asitheme-widget:nth-child(odd){
+    clear: both;
+}
+#available-widgets .asitheme-widget .asitheme-widget-description{
+    display: block;
+    padding: 10px 15px;
+    font-size: 12px;
+}
+/* Not sure what this is for... */
+div#widgets-left .inactive-sidebar .asitheme-widget.expanded{
+    left: auto;
+}
+.asitheme-widget-title-action{
+    float: right;
+    position: relative;
+}
+div#widgets-left .inactive-sidebar .asitheme-widgets-sortables{
+    min-height: 42px;
+    padding: 0;
+    background: transparent;
+    margin: 0;
+    position: relative;
+}
+/* Widgets Right */
+div#widgets-right .asitheme-widgets-holder-wrap{
+    margin: 10px 0 0 0;
+}
+div#widgets-right .asitheme-widget-top{
+    padding: 0;
+}
+div#widgets-right .asitheme-widgets-sortables{
+    padding: 0 8px;
+    margin-bottom: 9px;
+    position: relative;
+    min-height: 123px;
+}
+div#widgets-right .closed .asitheme-widgets-sortables{
+    min-height: 0;
+    margin-bottom: 0;
+}
+/* Dragging a widget over a closed sidebar */
+#widgets-right .asitheme-widgets-holder-wrap.asitheme-widget-hover{
+    border-color: #72777c;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+/* Accessibility Mode */
+.asitheme-widgets_access #widgets-left .asitheme-widget .asitheme-widget-top{
+    cursor: auto;
+}
+.asitheme-widgets_access #wpwrap .asitheme-widgets-holder-wrap.closed .sidebar-description,
+.asitheme-widgets_access #wpwrap .asitheme-widgets-holder-wrap.closed .asitheme-widget,
+.asitheme-widgets_access #wpwrap .asitheme-widget-control-edit{
+    display: block;
+}
+.asitheme-widgets_access #widgets-left .asitheme-widget .asitheme-widget-top:hover,
+.asitheme-widgets_access #widgets-right .asitheme-widget .asitheme-widget-top:hover{
+    border-color: #ddd;
+}
+#available-widgets .asitheme-widget-control-edit .edit,
+#widgets-left .inactive-sidebar .asitheme-widget-control-edit .add,
+#widgets-right .asitheme-widget-control-edit .add{
+    display: none;
+}
+.asitheme-widget-control-edit{
+    display: block;
+    color: #666;
+    background: #EEE;
+    padding: 0 15px;
+    line-height: 43px;
+    border-left: 1px solid #DDD;
+}
+#widgets-left .asitheme-widget-control-edit:hover,
+#widgets-right .asitheme-widget-control-edit:hover{
+    color: #fff;
+    background: #444;
+    border-left: 0;
+    outline: 1px solid #444;
+}
+.asitheme-widgets-holder-wrap .sidebar-name,
+.asitheme-widgets-holder-wrap .sidebar-description{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.editwidget .asitheme-widget-inside{
+    display: block;
+    padding: 0 15px;
+}
+.editwidget .asitheme-widget-control-actions{
+    margin-top: 20px;
+}
+.js .asitheme-widgets-holder-wrap.closed .asitheme-widget,
+.js .asitheme-widgets-holder-wrap.closed .sidebar-description,
+.js .asitheme-widgets-holder-wrap.closed .remove-inactive-widgets,
+.js .asitheme-widgets-holder-wrap.closed .description,
+.js .closed br.clear{
+    display: none;
+}
+.js .asitheme-widgets-holder-wrap.closed .asitheme-widget.ui-sortable-helper{
+    display: block;
+}
+/* Hide Widget Settings by Default */
+.asitheme-widget-inside,
+.asitheme-widget-description{
+    display: none;
+}
+.asitheme-widget-inside{
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    border-top: none;
+    padding: 1px 15px;
+    line-height: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.asitheme-widget-control-noform,
+#access-off,
+.asitheme-widgets_access .asitheme-widget-action,
+.asitheme-widgets_access .sidebar-name-arrow,
+.asitheme-widgets_access #access-on,
+.asitheme-widgets_access .asitheme-widget-holder .description,
+.no-js .asitheme-widget-holder .description{
+    display: none;
+}
+.asitheme-widgets_access .asitheme-widget-holder,
+.asitheme-widgets_access #widget-list{
+    padding-top: 10px;
+}
+.asitheme-widgets_access #access-off{
+    display: inline;
+}
+.asitheme-widgets_access .sidebar-name,
+.asitheme-widgets_access .asitheme-widget .asitheme-widget-top{
+    cursor: default;
+}
+/* Widgets Area Chooser */
+.asitheme-widget-liquid-left #widgets-left.chooser #available-widgets .asitheme-widget,
+.asitheme-widget-liquid-left #widgets-left.chooser .inactive-sidebar{
+    -webkit-transition: opacity 0.1s linear;
+    transition: opacity 0.1s linear;
+}
+.asitheme-widget-liquid-left #widgets-left.chooser #available-widgets .asitheme-widget,
+.asitheme-widget-liquid-left #widgets-left.chooser .inactive-sidebar{
+    opacity: 0.2;
+    pointer-events: none;
+}
+.asitheme-widget-liquid-left #widgets-left.chooser #available-widgets .asitheme-widget-in-question{
+    opacity: 1;
+    pointer-events: auto;
+}
+.asitheme-widgets-chooser ul,
+#widgets-left .asitheme-widget-in-question .asitheme-widget-top,
+#available-widgets .asitheme-widget-top:hover,
+div#widgets-right .asitheme-widget-top:hover,
+#widgets-left .asitheme-widget-top:hover{
+    border-color: #999;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.asitheme-widgets-chooser ul.asitheme-widgets-chooser-sidebars{
+    margin: 0;
+    list-style-type: none;
+    max-height: 300px;
+    overflow: auto;
+}
+.asitheme-widgets-chooser{
+    display: none;
+}
+.asitheme-widgets-chooser ul{
+    border: 1px solid #ccc;
+}
+.asitheme-widgets-chooser li{
+    padding: 10px 15px 10px 35px;
+    border-bottom: 1px solid #ccc;
+    background: #fff;
+    margin: 0;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    -webkit-transition: background 0.2s ease-in-out;
+    transition: background 0.2s ease-in-out;
+}
+/* @todo looks like these hover/focus states are overridden by .asitheme-widgets-chooser-selected */
+.asitheme-widgets-chooser li:hover,
+.asitheme-widgets-chooser li:focus{
+    background: rgba(255, 255, 255, 0.7);
+}
+.asitheme-widgets-chooser li:focus:before{
+    content: "\f147";
+    display: block;
+    -webkit-font-smoothing: antialiased;
+    font: normal 26px/1 dashicons;
+    color: #555d66;
+    position: absolute;
+    top: 7px;
+    left: 5px;
+}
+.asitheme-widgets-chooser li:last-child{
+    border: none;
+}
+.asitheme-widgets-chooser li.asitheme-widgets-chooser-selected{
+    background: #00a0d2;
+    color: #fff;
+}
+.asitheme-widgets-chooser li.asitheme-widgets-chooser-selected:before,
+.asitheme-widgets-chooser li.asitheme-widgets-chooser-selected:focus:before{
+    content: "\f147";
+    display: block;
+    -webkit-font-smoothing: antialiased;
+    font: normal 26px/1 dashicons;
+    color: #fff;
+    position: absolute;
+    top: 7px;
+    left: 5px;
+}
+.asitheme-widgets-chooser .asitheme-widgets-chooser-actions{
+    padding: 10px 0 12px 0;
+    text-align: center;
+}
+.asitheme-widgets-chooser button{
+    margin-right: 5px;
+}
+#available-widgets .asitheme-widget .asitheme-widget-top{
+    cursor: pointer;
+}
+#available-widgets .asitheme-widget.ui-draggable-dragging .asitheme-widget-top{
+    cursor: move;
+}
+.asi-field-group{
+    padding: 10px 20px 10px 20px;
+    margin: 30px 0;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+.asi-field-group > fieldset{
+    float: left;
+    margin-top: -25px;
+    margin-left: -13px;
+    font-size: 16px;
+    padding: 5px 20px;
+    background: #fff;
+}
+/* =Media Queries
+-------------------------------------------------------------- */
+@media screen and (max-width: 480px){
+
+    div.asitheme-widget-liquid-left{
+        width: 100%;
+        float: none;
+        border-right: none;
+        padding-right: 0;
+    }
+
+    #widgets-left #available-widgets .asitheme-widget-top{
+        margin-right: 0;
+    }
+
+    #widgets-left .inactive-sidebar .asitheme-widgets-sortables{
+        margin-right: 0;
+    }
+
+    div.asitheme-widget-liquid-right{
+        width: 100%;
+        float: none;
+    }
+
+    div.asitheme-widget{
+        margin: 0 auto !important;
+        max-width: 480px;
+    }
+}
+@media screen and (max-width: 320px){
+
+    div.asitheme-widget{
+        max-width: 320px;
+    }
+}
+@media only screen and (min-width: 1250px){
+
+    #widgets-left #available-widgets .asitheme-widget{
+        width: 49%;
+        float: left;
+    }
+
+    .asitheme-widget.ui-draggable-dragging{
+        min-width: 49%;
+    }
+
+    #widgets-left #available-widgets .asitheme-widget:nth-child(even){
+        float: right;
+    }
+}

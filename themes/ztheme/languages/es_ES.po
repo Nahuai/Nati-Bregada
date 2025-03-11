@@ -1,0 +1,742 @@
+# <!=Copyright (C) 2017 StudioPress
+# This file is distributed under the GPL-2.0+.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Z Theme 1.0.0\n"
+"Report-Msgid-Bugs-To: StudioPress <translations@studiopress.com>\n"
+"POT-Creation-Date: 2019-11-28 19:27+0100\n"
+"PO-Revision-Date: 2020-03-21 14:00+0100\n"
+"Last-Translator: StudioPress <translations@studiopress.com>\n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_html_e\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/customizer/customizer.php:68
+msgid "Colors"
+msgstr "Colores"
+
+#: inc/customizer/customizer.php:74
+#: inc/widgets/inc/class-asi-widget-two-blocks.php:113
+msgid "Buttons"
+msgstr "Botones"
+
+#: inc/customizer/customizer.php:84 inc/customizer/customizer.php:156
+#: inc/widgets/inc/class-asi-widget-features.php:23
+#: inc/widgets/inc/class-asi-widget-logos.php:23
+#: inc/widgets/inc/class-asi-widget-main.php:29
+#: inc/widgets/inc/class-asi-widget-two-blocks.php:46
+#: inc/widgets/inc/class-asi-widget-two-blocks.php:118
+msgid "Text color"
+msgstr "Color del texto"
+
+#: inc/customizer/customizer.php:95
+#: inc/widgets/inc/class-asi-widget-features.php:17
+#: inc/widgets/inc/class-asi-widget-logos.php:17
+#: inc/widgets/inc/class-asi-widget-main.php:23
+#: inc/widgets/inc/class-asi-widget-two-blocks.php:40
+#: inc/widgets/inc/class-asi-widget-two-blocks.php:124
+msgid "Background color"
+msgstr "Color de fondo"
+
+#: inc/customizer/customizer.php:106
+#: inc/widgets/inc/class-asi-widget-main.php:17
+#: inc/widgets/inc/class-asi-widget-two-blocks.php:130
+msgid "Border color"
+msgstr "Color del borde"
+
+#: inc/customizer/customizer.php:117
+#: inc/widgets/inc/class-asi-widget-two-blocks.php:136
+msgid "Text color when the mouse passes over"
+msgstr "Color del texto cuando el mouse pasa por encima"
+
+#: inc/customizer/customizer.php:128
+#: inc/widgets/inc/class-asi-widget-two-blocks.php:142
+msgid "Background color when the mouse passes over"
+msgstr "Color de fondo cuando el mouse pasa por encima"
+
+#: inc/customizer/customizer.php:139
+#: inc/widgets/inc/class-asi-widget-two-blocks.php:148
+msgid "Border color when the mouse passes over"
+msgstr "Color del border cuando el mouse pasa por encima"
+
+#: inc/customizer/customizer.php:146
+msgid "Links"
+msgstr "Enlaces"
+
+#: inc/customizer/customizer.php:167
+msgid "Border width"
+msgstr "Ancho del borde"
+
+#: inc/customizer/customizer.php:179
+#: inc/setup-wizard/class-asi-setup-wizard.php:33
+msgid "Header"
+msgstr "Cabecera"
+
+#: inc/customizer/customizer.php:191
+#: inc/setup-wizard/class-asi-setup-wizard.php:758
+msgid "Header position"
+msgstr "Posición de la cabecera"
+
+#: inc/customizer/customizer.php:193
+#: inc/setup-wizard/class-asi-setup-wizard.php:761
+msgid "Header fixed"
+msgstr "Cabecera fija"
+
+#: inc/customizer/customizer.php:194
+#: inc/setup-wizard/class-asi-setup-wizard.php:762
+msgid "Header relative"
+msgstr "Cabecera relativa"
+
+#: inc/customizer/customizer.php:203
+#: inc/setup-wizard/class-asi-setup-wizard.php:767
+msgid "Background transparency"
+msgstr "Transparencia del fondo"
+
+#: inc/customizer/customizer.php:216
+#: inc/setup-wizard/class-asi-setup-wizard.php:777
+msgid "Show search engine as in the demo?"
+msgstr "¿Mostrar buscador como en la demo?"
+
+#: inc/customizer/customizer.php:227
+msgid "Fonts"
+msgstr "Fuentes"
+
+#: inc/customizer/customizer.php:237
+msgid "Body"
+msgstr "General"
+
+#: inc/customizer/customizer.php:248
+msgid "Headings"
+msgstr "Titulares"
+
+#: inc/customizer/customizer.php:258
+#: inc/setup-wizard/class-asi-setup-wizard.php:714
+msgid "Social networks"
+msgstr "Redes sociales"
+
+#: inc/customizer/customizer.php:268
+msgid "Add social networks in the footer?"
+msgstr "Agregar redes sociales en el pie de página?"
+
+#: inc/customizer/customizer.php:282
+msgid "link"
+msgstr "enlace"
+
+#: inc/customizer/inc/class-wp-customize-google-font.php:22
+msgid "We use Google Fonts, simply select your choice"
+msgstr "Usamos Google Fonts, simplemente selecciona tu opción"
+
+#: inc/defaults.php:20
+msgid "Buy"
+msgstr "Comprar"
+
+#: inc/genesis.php:182 inc/genesis.php:188
+msgid "Search"
+msgstr "Buscar"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:23
+msgid "Install plugins"
+msgstr "Instalar plugins"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:28
+msgid "Content"
+msgstr "Contenido"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:38
+msgid "Import"
+msgstr "Importar"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:43
+msgid "Ready!"
+msgstr "¡Listo!"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:99
+#: inc/setup-wizard/class-asi-setup-wizard.php:1131
+#: inc/setup-wizard/setup-wizard.php:43
+msgid "Setup wizard"
+msgstr "Asistente de configuración"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:116
+msgid "Return to your dashboard"
+msgstr "Volver a tu escritorio"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:161
+msgid "Check the plugins you want to install and activate"
+msgstr "Marca los plugins que quieres instalar y activar"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:343
+msgid "Create a Homepage like the demo"
+msgstr "Crear una página de Inicio como en la demo"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:351
+msgid "Create a Blog page"
+msgstr "Crear una página de Blog"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:359
+msgid "Create the cart widget in the header"
+msgstr "Crear el widget de carrito en el encabezado"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:367
+msgid "Create footer widgets"
+msgstr "Crear widgets de pie de página"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:376
+msgid "Create Contact page"
+msgstr "Crear una página de Contacto"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:385
+msgid "Create About me page"
+msgstr "Crear una página ”Sobre mi”"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:428
+#: inc/setup-wizard/class-asi-setup-wizard.php:699
+msgid "Contact"
+msgstr "Contacto"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:441
+msgid "About"
+msgstr "About"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:456
+#: inc/setup-wizard/class-asi-setup-wizard.php:1122 inc/widgets/widgets.php:24
+msgid "Homepage"
+msgstr "Página de Inicio"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:546
+msgid "Featured products"
+msgstr "Productos Destacados"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:611
+#: inc/widgets/inc/class-asi-widget-logos.php:28
+msgid "Some of our customers"
+msgstr "Algunos de nuestros clientes"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:679
+msgid "Legal issues"
+msgstr "Asuntos legales"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:680
+msgid "Legal warning"
+msgstr "Aviso legal"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:681
+msgid "Privacy Policy"
+msgstr "Política de privacidad"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:682
+msgid "General conditions of online purchase"
+msgstr "Condiciones generales de compra online"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:683
+msgid "Cookies policy"
+msgstr "Política de cookies"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:697
+msgid "Client area"
+msgstr "Área cliente"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:698
+msgid "Log in"
+msgstr "Acceder"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:700
+msgid "Faqs"
+msgstr "Preguntas frecuentes"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:752
+msgid "Header position & transparency"
+msgstr "Posición y transparencia de la cabecera"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:785
+msgid "Menu"
+msgstr "Menú"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:794
+msgid "Create menu and assign it to primary"
+msgstr "Crear menú y asignarlo como primario"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:799
+msgid "Menu items"
+msgstr "Ítems del menú"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:807
+msgid "Select a page"
+msgstr "Selecciona una página"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:814
+#: inc/widgets/inc/abstract-asi-widget.php:444
+#: inc/widgets/inc/abstract-asi-widget.php:496
+msgid "Remove"
+msgstr "Eliminar"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:820
+#: inc/widgets/inc/abstract-asi-widget.php:471
+msgid "Add"
+msgstr "Añadir"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:928
+msgid "Create test posts"
+msgstr "Crear entradas de prueba"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:937
+msgid "Create test products"
+msgstr "Crear productos de prueba"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:1110
+msgid "Customize"
+msgstr "Personalizar"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:1111
+msgid "You can modify the theme from the customizer"
+msgstr "Puedes modificar el theme desde el personalizador"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:1112
+msgid "Go to Customizer"
+msgstr "Ir al Personalizador"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:1116
+msgid "Dashboard"
+msgstr "Escritorio"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:1117
+#: inc/setup-wizard/class-asi-setup-wizard.php:1118
+msgid "Go to Dashboard"
+msgstr "Ir al Escritorio"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:1123
+msgid "Theme is set, now you can go to the homepage"
+msgstr "El theme está configurado, ahora puedes ir a la página de inicio"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:1124
+msgid "Go to homepage"
+msgstr "Ir a la página de inicio"
+
+#: inc/setup-wizard/class-asi-setup-wizard.php:1132
+msgid "Run the Setup Wizard"
+msgstr "Ejecutar el asistente de configuración"
+
+#: inc/widgets/inc/abstract-asi-widget.php:24
+msgid "No media selected"
+msgstr "Ningún medio seleccionado"
+
+#: inc/widgets/inc/abstract-asi-widget.php:25
+#, fuzzy
+#| msgid "Add New"
+msgid "Add Media"
+msgstr "Añadir nuevo"
+
+#: inc/widgets/inc/abstract-asi-widget.php:26
+msgid "Replace Media"
+msgstr ""
+
+#: inc/widgets/inc/abstract-asi-widget.php:27
+msgid "Edit Media"
+msgstr ""
+
+#: inc/widgets/inc/abstract-asi-widget.php:28
+msgid "Add to Widget"
+msgstr ""
+
+#: inc/widgets/inc/abstract-asi-widget.php:30
+#, php-format
+msgid ""
+"We can&#8217;t find that file. Check your <a href=\"%s\">media library</a> "
+"and make sure it wasn&#8217;t deleted."
+msgstr ""
+
+#: inc/widgets/inc/abstract-asi-widget.php:33
+msgid "Media Widget"
+msgstr ""
+
+#: inc/widgets/inc/abstract-asi-widget.php:34
+msgid ""
+"Looks like this isn&#8217;t the correct kind of file. Please link to an "
+"appropriate file instead."
+msgstr ""
+
+#: inc/widgets/inc/abstract-asi-widget.php:37
+msgid "No images selected"
+msgstr ""
+
+#: inc/widgets/inc/abstract-asi-widget.php:38
+msgid "Add Images"
+msgstr "Añadir imagen(es)"
+
+#: inc/widgets/inc/abstract-asi-widget.php:40
+msgid "Edit Gallery"
+msgstr "Editar galería"
+
+#: inc/widgets/inc/abstract-asi-widget.php:437
+msgid "Upload Image"
+msgstr "Cargar imagen"
+
+#: inc/widgets/inc/class-asi-widget-features.php:10
+msgid "%s - Features"
+msgstr "%s - Destacados"
+
+#: inc/widgets/inc/class-asi-widget-features.php:29
+#: inc/widgets/inc/class-asi-widget-features.php:38
+#: inc/widgets/inc/class-asi-widget-logos.php:29
+#: inc/widgets/inc/class-asi-widget-main.php:35
+#: inc/widgets/inc/class-asi-widget-two-blocks.php:67
+msgid "Title"
+msgstr "Título"
+
+#: inc/widgets/inc/class-asi-widget-features.php:33
+#: inc/widgets/inc/class-asi-widget-quotes.php:16
+msgid "Items"
+msgstr "Items"
+
+#: inc/widgets/inc/class-asi-widget-features.php:43
+#: inc/widgets/inc/class-asi-widget-main.php:40
+#: inc/widgets/inc/class-asi-widget-two-blocks.php:88
+msgid "Text"
+msgstr "Texto"
+
+#: inc/widgets/inc/class-asi-widget-features.php:44
+msgid "Each item in a line"
+msgstr "Cada elemento en una línea"
+
+#: inc/widgets/inc/class-asi-widget-features.php:49
+#: inc/widgets/inc/class-asi-widget-logos.php:38
+msgid "Link"
+msgstr "Enlace"
+
+#: inc/widgets/inc/class-asi-widget-features.php:54
+#: inc/widgets/inc/class-asi-widget-logos.php:43
+#: inc/widgets/inc/class-asi-widget-main.php:65
+#: inc/widgets/inc/class-asi-widget-two-blocks.php:25
+msgid "Image"
+msgstr "Imagen"
+
+#: inc/widgets/inc/class-asi-widget-logos.php:10
+msgid "%s - Logos"
+msgstr "%s - Logos"
+
+#: inc/widgets/inc/class-asi-widget-logos.php:33
+msgid "Logos"
+msgstr "Logos"
+
+#: inc/widgets/inc/class-asi-widget-main.php:10
+#, fuzzy
+#| msgid "%s - Main"
+msgid "%s - Main"
+msgstr "%s - Principal"
+
+#: inc/widgets/inc/class-asi-widget-main.php:44
+#: inc/widgets/inc/class-asi-widget-two-blocks.php:93
+msgid "Button"
+msgstr "Botón"
+
+#: inc/widgets/inc/class-asi-widget-main.php:49
+#: inc/widgets/inc/class-asi-widget-two-blocks.php:98
+msgid "Button text"
+msgstr "Texto del botón"
+
+#: inc/widgets/inc/class-asi-widget-main.php:54
+#: inc/widgets/inc/class-asi-widget-two-blocks.php:103
+msgid "Button link"
+msgstr "Enlace del botón"
+
+#: inc/widgets/inc/class-asi-widget-main.php:58
+#: inc/widgets/inc/class-asi-widget-two-blocks.php:107
+msgid "Open in a new tab"
+msgstr "Abrir en una nueva pestaña"
+
+#: inc/widgets/inc/class-asi-widget-quotes.php:10
+msgid "%s - Quotes"
+msgstr "%s - Citas"
+
+#: inc/widgets/inc/class-asi-widget-quotes.php:21
+msgid "Quote"
+msgstr "Cita"
+
+#: inc/widgets/inc/class-asi-widget-quotes.php:26
+msgid "Author"
+msgstr "Autor"
+
+#: inc/widgets/inc/class-asi-widget-two-blocks.php:10
+msgid "%s - Two Blocks"
+msgstr "%s - Dos bloques"
+
+#: inc/widgets/inc/class-asi-widget-two-blocks.php:12
+msgid ""
+"This widgets allows us to create a space with a block of text and another "
+"image"
+msgstr ""
+"Este widget nos permite crear un espacio con un bloque de texto y otra imagen"
+
+#: inc/widgets/inc/class-asi-widget-two-blocks.php:26
+msgid ""
+"The image will be seen in the background, therefore, we recommend putting an "
+"image where the important element to show is centered"
+msgstr ""
+"a imagen se verá en el fondo, por lo tanto, recomendamos colocar una imagen "
+"donde esté centrado el elemento importante a mostrar"
+
+#: inc/widgets/inc/class-asi-widget-two-blocks.php:31
+msgid "Text position"
+msgstr "Posición del texto"
+
+#: inc/widgets/inc/class-asi-widget-two-blocks.php:33
+#: inc/widgets/inc/class-asi-widget-two-blocks.php:54
+msgid "Left"
+msgstr "Izquierda"
+
+#: inc/widgets/inc/class-asi-widget-two-blocks.php:34
+#: inc/widgets/inc/class-asi-widget-two-blocks.php:55
+msgid "Right"
+msgstr "Derecha"
+
+#: inc/widgets/inc/class-asi-widget-two-blocks.php:52
+msgid "Text align"
+msgstr "Alineación del texto"
+
+#: inc/widgets/inc/class-asi-widget-two-blocks.php:56
+msgid "Center"
+msgstr "Centro"
+
+#: inc/widgets/inc/class-asi-widget-two-blocks.php:62
+msgid "Subtitle"
+msgstr "Subtítulo"
+
+#: inc/widgets/inc/class-asi-widget-two-blocks.php:72
+msgid "Size (Desktop)"
+msgstr "Tamaño (Escritorio)"
+
+#: inc/widgets/inc/class-asi-widget-two-blocks.php:80
+msgid "Size (Mobile)"
+msgstr "Tamaño (Móvil)"
+
+#: inc/widgets/inc/class-asi-widget-two-blocks.php:89
+msgid "Each paragraph in a different line"
+msgstr "Cada párrafo en una línea diferente"
+
+#: inc/widgets/widgets.php:30
+msgid "Before entry"
+msgstr "Antes de la entrada"
+
+#: inc/widgets/widgets.php:31
+msgid "Widgets in this widget area will display before single entries."
+msgstr ""
+"Los widgets en esta área de widgets se mostrarán antes de las entradas "
+"individuales."
+
+#: inc/widgets/widgets.php:53
+msgid "%curr% of %total%"
+msgstr "%curr% de %total%"
+
+#: inc/widgets/widgets.php:64
+msgid "%s Widgets links"
+msgstr "%s Enlaces Widgets"
+
+#: inc/woocommerce/class-asi-widget-woocommerce-cart.php:10
+msgid "%s - WooCommerce Cart"
+msgstr "%s - Carrito WooCommerce"
+
+#: inc/woocommerce/class-asi-widget-woocommerce-cart.php:12
+msgid "Link to WooCommerce cart"
+msgstr "Enlace al carrito de WooCommerce"
+
+#: inc/woocommerce/class-asi-widget-woocommerce-cart.php:22
+#: inc/woocommerce/woocommerce.php:26
+msgid "View cart"
+msgstr "Ver carrito"
+
+#: inc/woocommerce/woocommerce.php:156
+msgid "'Add to cart' button"
+msgstr "Botón 'Añadir al carrito'"
+
+#: inc/woocommerce/woocommerce.php:167
+msgid "'Add to cart' button text"
+msgstr "Texto del botón 'Añadir al carrito'"
+
+#: inc/woocommerce/woocommerce.php:168
+msgid "Leave empty to show default value"
+msgstr "Déjalo vacío para mostrar el valor predeterminado"
+
+#: inc/woocommerce/woocommerce.php:235
+msgid "More products"
+msgstr "Más productos"
+
+#~ msgid "Header background color"
+#~ msgstr "Color de fondo del encabezado"
+
+#~ msgid "Footer"
+#~ msgstr "Pie de página"
+
+#~ msgid ""
+#~ "From Genesis 3.1.0 and later versions, if you want to modify footer "
+#~ "content you have to go <a href=\"%s\">Theme Settings > Footer</a>."
+#~ msgstr ""
+#~ "Desde Genesis 3.1.0 y versiones posteriores, si deseas modificar el "
+#~ "contenido del pie de página, debes ir a <a href=\"%s\">Ajustes del tema > "
+#~ "Footer</a>."
+
+#~ msgid "Footer Credits Text"
+#~ msgstr "Texto de créditos de pie de página"
+
+#~ msgid "&mdash; Select &mdash;"
+#~ msgstr "&mdash; Seleccionar &mdash;"
+
+#~ msgid "Category"
+#~ msgstr "Categoría"
+
+#~ msgid "Background image"
+#~ msgstr "Imagen de fondo"
+
+#~ msgid "Opacity"
+#~ msgstr "Opacidad"
+
+#~ msgid "black layer's opacity above the picture"
+#~ msgstr "opacidad de la capa negra sobre la imagen"
+
+#~ msgid "%s - WooCommerce Categories"
+#~ msgstr "%s - Categorías WooCommerce"
+
+#~ msgid "List of product categories"
+#~ msgstr "Lista de categorías de productos"
+
+#~ msgid "Show only categories without parents"
+#~ msgstr "Mostrar solo categorías sin padres"
+
+#~ msgid "Show post counts"
+#~ msgstr "Mostrar número de entradas"
+
+#~ msgid "Show images?"
+#~ msgstr "¿Mostrar imagenes?"
+
+#~ msgid "Hide empty categories?"
+#~ msgstr "¿Ocultar categorías vacías?"
+
+#~ msgid "Typical error 404"
+#~ msgstr "Típico error 404"
+
+#~ msgid ""
+#~ "It seems this page doesn't exist, or you've followed an incorrect link. "
+#~ "Please, try to use this search feature to find what you're looking for:"
+#~ msgstr ""
+#~ "Parece ser que has llegado a una página que no existe, o te han enlazado "
+#~ "mal. Prueba de buscar el contenido que quieres encontrar usando este "
+#~ "buscador:"
+
+#~ msgid "Search in the web..."
+#~ msgstr "Buscar en la web..."
+
+#~ msgid "Product list"
+#~ msgstr "Lista de productos"
+
+#~ msgid "Number of columns"
+#~ msgstr "Número de columnas"
+
+#~ msgid "Error"
+#~ msgstr "Error"
+
+#~ msgid "An error occurred, please try again."
+#~ msgstr "Ha ocurrido un error. Por favor intente de nuevo."
+
+#~ msgid "Your license key expired on %s."
+#~ msgstr "Tu clave de licencia expiró en %s."
+
+#~ msgid "Your license key has been disabled."
+#~ msgstr "Tu clave de licencia se ha deshabilitado."
+
+#~ msgid "Invalid license."
+#~ msgstr "Licencia no válida."
+
+#~ msgid "Your license is not active for this URL."
+#~ msgstr "Tu licencia no está activa para esta URL."
+
+#~ msgid "This appears to be an invalid license key for %s."
+#~ msgstr "Esto parece ser una clave de licencia no válida para %s."
+
+#~ msgid "Your license key has reached its activation limit."
+#~ msgstr "Tu clave de licencia ha alcanzado su límite de activación."
+
+#~ msgid "Así Themes License"
+#~ msgstr "Licencia de Así Themes"
+
+#~ msgid "Enter your license key."
+#~ msgstr "Introduzca la clave de licencia."
+
+#~ msgid "License Key"
+#~ msgstr "Clave de licencia"
+
+#~ msgid "License Action"
+#~ msgstr "Acción de licencia"
+
+#~ msgid "License information"
+#~ msgstr "Información de licencia"
+
+#~ msgid "Deactivate License"
+#~ msgstr "Desactivar Licencia"
+
+#~ msgid "Activate License"
+#~ msgstr "Activar Licencia"
+
+#~ msgid "Active license for \"%s\""
+#~ msgstr "Licencia activa para \"%s\""
+
+#~ msgid "License status is unknown."
+#~ msgstr "El estado de la licencia es desconocido."
+
+#~ msgid "Renew?"
+#~ msgstr "¿Renovar?"
+
+#~ msgid "unlimited"
+#~ msgstr "ilimitado"
+
+#~ msgid "License key is active."
+#~ msgstr "La clave de licencia está activa."
+
+#~ msgid "Expires %s."
+#~ msgstr "Caduca  %s."
+
+#~ msgid "Lifetime License."
+#~ msgstr "Licencia de por vida."
+
+#~ msgid "You have %1$s / %2$s sites activated."
+#~ msgstr "Tienes %1$s / %2$s sitios activados."
+
+#~ msgid "License key expired %s."
+#~ msgstr "Clave de licencia caducada %s."
+
+#~ msgid "License key has expired."
+#~ msgstr "La clave de licencia ha caducado."
+
+#~ msgid "License keys do not match."
+#~ msgstr "Las claves de licencia no coinciden."
+
+#~ msgid "License is inactive."
+#~ msgstr "La licencia está inactiva."
+
+#~ msgid "License key is disabled."
+#~ msgstr "La clave de licencia está deshabilitada."
+
+#~ msgid "Site is inactive."
+#~ msgstr "El sitio está inactivo."
+
+#~ msgid ""
+#~ "Updating this theme will lose any customizations you have made. 'Cancel' "
+#~ "to stop, 'OK' to update."
+#~ msgstr ""
+#~ "Al actualizar este tema se perderán las personalizaciones que hayas "
+#~ "realizado. 'Cancelar' para detener, 'Aceptar' para actualizar."
+
+#~ msgid ""
+#~ "<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" class=\"thickbox"
+#~ "\" title=\"%4s\">Check out what's new</a> or <a href=\"%5$s\"%6$s>update "
+#~ "now</a>."
+#~ msgstr ""
+#~ "<strong>%1$s %2$s</strong> está disponible. <a href=\"%3$s\" class="
+#~ "\"thickbox\" title=\"%4s\">Consulta las novedades</a> o <a href=\"%5$s"
+#~ "\"%6$s>actualiza ahora</a>."

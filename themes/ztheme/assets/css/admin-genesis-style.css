@@ -1,0 +1,16 @@
+/* # Themes settings page
+---------------------------------------------------------------------------------------------------- */
+#genesis-theme-settings-posts .inside tr:nth-child(1),
+#genesis-theme-settings-posts .inside tr:nth-child(2),
+#genesis-theme-settings-posts .inside tr:nth-child(3){
+    display: none !important;
+}
+/* # Customizer
+---------------------------------------------------------------------------------------------------- */
+#customize-control-genesis_content_archive,
+#customize-control-genesis_content_archive_limit,
+#customize-control-genesis_content_archive_thumbnail,
+#customize-control-genesis_image_size,
+#customize-control-genesis_image_alignment{
+    display: none !important;
+}
